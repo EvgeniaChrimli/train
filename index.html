@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <img class="logo" src="images/лого.png" alt="logo" />
+          </div>
+          <nav class="header__nav">
+            <ul class="nav__items">
+              <li class="nav__items-item">
+                <a href="#historyBlock" class="item-link">ИСТОРИЯ</a>
+              </li>
+              <li class="nav__items-item">
+                <a href="#characterictics" class="item-link">ХАРАКТЕРИСТИКИ</a>
+              </li>
+              <li class="nav__items-item">
+                <a href="#mechanism" class="item-link">МЕХАНИЗМ</a>
+              </li>
+              <li class="nav__items-item">
+                <a href="#model" class="item-link">МОДЕЛЬ</a>
+              </li>
+              <li class="nav__items-item">
+                <a href="#cinema" class="item-link">КИНО</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="grid-container">
+        <div class="grid1">ТРАМВАЙ КМ —</div>
+        <div class="grid2">
+          один из самых известных и массово выпускаемых трамваев времён
+          Советского Союза.
+        </div>
+        <div class="grid3"><img src="images/главная 1.png" alt="" /></div>
+        <div class="grid4"><img src="images/главная2.png" alt="" /></div>
+      </div>
+      <div class="history" id="historyBlock">
+        <h1 class="history__title">ИСТОРИЯ</h1>
+        <div class="history__body">
+          <div class="history__body-text">
+            <div class="text-wrapper">
+              <p class="history__body-title-1">1920</p>
+              <p class="text">
+                В эти годы началось быстрое развитие трамвайной сети в Москве,
+                из-за этого рост объема перевозок требовал расширения и
+                обновления подвижного состава Московского трамвая. Увеличивалось
+                количество маршрутов, создавались новые депо, спрос на
+                трамвайный транспорт рос.
+              </p>
+            </div>
+            <div class="text-wrapper">
+              <p class="history__body-title-1 red">1925</p>
+              <p class="text">
+                В этот период в декабре Коломенский машиностроительный завод
+                приступил к разработке первого в СССР 4-осного <br />6 вагона,
+                который должен был значительно повысить эффективность и комфорт
+                городских перевозок.
+              </p>
+            </div>
+            <div class="text-wrapper">
+              <p class="history__body-title-1">1926</p>
+              <p class="text">
+                В январе 1926 года в Москве появились первые вагоны, сразу же
+                после начала выпуска. С учетом опыта их эксплуатации в
+                конструкцию были внесены небольшие изменения.
+              </p>
+            </div>
+            <div class="text-wrapper">
+              <p class="history__body-title-1 red">1929</p>
+              <p class="text">
+                С 1929 года началось серийное производство вагонов КМ на
+                Коломенском заводе.
+              </p>
+            </div>
+          </div>
+          <div style="position: relative">
+            <div id="historyContent" style="position: sticky; top: 200px">
+              <div id="historyContentTitle" class="historyContent-title"></div>
+              <div id="rel">
+                <img id="historyContentImage" class="main-img" />
+              </div>
+              <div id="abs">
+                <img
+                  id="historyContentImage2"
+                  style="object-fit: scale-down"
+                  alt=""
+                />
+              </div>
+              <div id="historyContentText"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="characteristics" id="characterictics">
+        <div class="popup">
+          <h1>Наведи на картинки</h1>
+        </div>
+        <div class="container">
+          <h2 class="characteristics-title">ХАРАКТЕРИСТИКИ</h2>
+          <div class="main-card">
+            <div class="main-card-body">
+              <div class="main-card-front">
+                <div class="rela">
+                  <p class="main-card-title">Чертежи трамвая КМ</p>
+                </div>
+              </div>
+              <div class="main-card-back">
+                <img src="images/mainCardBack.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <h3 class="characteristics-subtitle">Технические характеристики</h3>
+          <ul class="row-card"></ul>
+        </div>
+      </div>
+
+      <div class="mechanism" id="mechanism">
+        <div class="container">
+          <div class="mechanism-title">МЕХАНИЗМ</div>
+          <div class="mechanism-body">
+            <div class="mechanism-text" style="position: relative">
+              <div style="position: sticky; top: 20px">
+                <div class="group group1">
+                  <p class="mechanism-num">/01</p>
+                  <div class="mechanism-info">
+                    Трамвай получает команду на движение, и ток поступает на
+                    тяговые электродвигатели, они приводят колеса в движение.
+                  </div>
+                </div>
+                <div class="group group2">
+                  <p class="mechanism-num">/02</p>
+                  <div class="mechanism-info">
+                    Колёса начинают вращаться, обеспечивая движение трамвая.
+                    Пружины-рессоры гасят удары и вибрации при движении.
+                  </div>
+                </div>
+                <div class="group group3">
+                  <p class="mechanism-num">/03</p>
+                  <div class="mechanism-info">
+                    Для работы системы тормозов и других механизмов тележки
+                    используется насос, который подаёт сжатый воздух в систему.
+                    Он работает непрерывно.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid" style="position: relative">
+              <div style="position: sticky; top: 27px">
+                <div class="mechanism-subtitle">Поворотная тележка</div>
+                <video
+                  src="images/тележка.mp4"
+                  alt=""
+                  class="mechanism-video"
+                  no-controls
+                  autoplay
+                  loop
+                  playsinline
+                  muted
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="model" id="model">
+        <div class="container">
+          <div class="model-title">3Д МОДЕЛЬ</div>
+          <div class="model-body">
+            <div class="arrow">
+              <img src="images/arrLeft.png" alt="" />
+            </div>
+            <div class="row-model">
+              <video
+                class="model-video"
+                src="images/Трамвай.mp4"
+                no-controls
+                autoplay
+                loop
+                playsinline
+                muted
+              ></video>
+              <p class="model-text">3D модель Коломенского трамвая</p>
+            </div>
+            <div class="arrow">
+              <img src="images/arrRight.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="red-train">
+        <div class="red-train-body">
+          <p class="red-train-text">
+            Трамвай КМ на маршруте №30 <br />
+            в Нижнем Новгороде 1931 год
+          </p>
+        </div>
+      </div>
+      <div class="cinema" id="cinema">
+        <h2 class="cinema__title">КИНО</h2>
+        <div class="cinema__grid">
+          <div class="cinema__text">
+            В России сохранилось 2 вагона типа КМ. Один - <br />
+            московский вагон № 2170 - постоянный участник<br />
+            трамвайных парадов.Второй вагон сохранился в <br />
+            Нижнем Новгороде
+          </div>
+          <div class="cinema__image">
+            <img
+              class="cinema__image-img"
+              src="images/cinemaCircle.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <section class="horizontal">
+        <div class="pin-wrap">
+          <div class="animation-wrap to-right">
+            <div class="item" style="display: block">
+              <div class="row">
+                <div class="item-title">СОЛНЦЕ СВЕТИТ ВСЕМ 1959</div>
+                <div class="col">
+                  <img class="item-img" width="969" src="images/скролл1.png" />
+                  <div class="item-text">скриншоты из фильма, 49 минута</div>
+                </div>
+                <img class="item-img" src="images/scroll2.png" />
+              </div>
+            </div>
+            <div class="item last" style="display: block">
+              <div class="row">
+                <div class="item-title">ПОКРОВСКИЕ ВОРОТА 1982</div>
+                <div class="col">
+                  <img class="item-img" src="images/скролл3.png" />
+                  <div class="item-text">скриншоты из фильма, 53 минута</div>
+                </div>
+                <img class="item-img" src="images/скролл4.png" />
+              </div>
+            </div>
+            <div class="item last" style="display: block">
+              <div class="row">
+                <div class="item-title master">
+                  МАСТЕР И МАРГАРИТА <br />
+                  1994
+                </div>
+                <div class="col">
+                  <img class="item-img" src="images/sec2 (1).png" />
+                  <div class="item-text">скриншоты из фильма, 24 минута</div>
+                </div>
+                <img class="item-img" src="images/sec1 (1).png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="history-second">
+        <div class="history__body">
+          <div style="position: relative">
+            <div id="historyContentSecond" style="position: sticky; top: 70px">
+              <div
+                id="historyContentTitleSecond"
+                class="historyContent-title"
+              ></div>
+              <div id="relative">
+                <img id="historyContentImageSecond" class="main-img" />
+              </div>
+              <div id="absolute" class="absolute"></div>
+              <div id="historyContentTextSecond"></div>
+            </div>
+          </div>
+          <div class="history__body-text second">
+            <p class="history__body-title red">1941-1945гг</p>
+            <p class="text">
+              Во времена Великой Отечественной войны часть вагонов Коломенского
+              машиностроительного завода была эвакуирована из Москвы. Несмотря
+              на тяжелые условия, московские трамваи продолжали работать,
+              перевозя различные грузы, а также раненых с вокзалов в госпитали,
+              играя важную роль в обеспечении города и поддержании
+              жизнедеятельности.
+            </p>
+            <p class="history__body-title">1970г</p>
+            <p class="text">
+              В 1970 году вагоны КМ начали списывать, когда Москва в больших
+              количествах получала чешские вагоны, причем КМ были в исправном
+              состоянии и списывались лишь из-за морального старения. На данный
+              момент сохранилось только 2 трамвая КМ: один находится в Москве,
+              другой в Нижнем Новгороде.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="header-container">
+          <div class="row-footer">
+            <div class="logo">
+              <img src="images/лого.png" alt="" />
+            </div>
+            <div class="social-group">
+              <a href="https://vk.com/vhutein"
+                ><img src="images/лого вк.png" alt=""
+              /></a>
+              <a href="https://web.telegram.org/a/#-1001707390150"
+                ><img src="images/лого тг.png" alt=""
+              /></a>
+              <img src="images/ВХУТЕИН.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script type="module" src="app.js"></script>
+    <script src="gsap.js"></script>
+  </body>
+</html>
